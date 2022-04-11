@@ -1,0 +1,47 @@
+----------------------------------------
+GLOBALS - NO WINDOW
+
+__dirname  - path to current directory
+__filename - file name
+require    - function to use Modules (Common JS
+module     - info about current module (file)
+process    - info about env where the program is being executed
+
+----------------------------------------
+
+CommonJS, every file is  module (by default)
+
+Modules - Encapsulated Code (only share minimum)
+
+----------------------------------------
+
+BUILT-IN MODULES
+
+1. OS
+2. PATH
+3. FS
+4. HTTP
+
+----------------------------------------
+
+NPM
+
+npmjs.com
+npmjs.com -> search bootstrap
+
+npm - global command, comes with node itself
+npm --version
+
+local dependency - use it only in particular project
+npm i <packageName>
+
+global dependency - use it in any project
+npm install -g <packageName>
+sudo install -g <packageName> (mac)
+
+package.json - manifest file (stores important info about the project)
+1) manual approach (create package.json in the root, create properties, etc)
+2) npm init (step by step, press enter to skip)
+3) npm init -y (everything default)
+
+----------------------------------------
